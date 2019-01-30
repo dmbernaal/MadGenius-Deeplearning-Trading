@@ -14,10 +14,10 @@ gran = sys.argv[3]
 instr = sys.argv[4]
 
 params = {
-    "granularity": 'M1',
+    "granularity": gran,
     "from": _from,
     "to": _to
-#     "count": 5000
+#     "counts": 5000
 }
 
 def cnv(r, h):
